@@ -11,7 +11,7 @@ class HtmlPurifierValidator
 
         if ($str2 != $str)
         {
-            $error = t('errors', 'HTML not safe.');
+            $error = t('errors', 'HTML is not safe.');
 
             return false;
         }
