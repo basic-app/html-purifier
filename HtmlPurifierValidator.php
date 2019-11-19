@@ -7,7 +7,13 @@ class HtmlPurifierValidator
 
     public function html_purifier($str, & $error = null)
     {
+        $str = html_entity_decode($str);
+
         $str2 = HtmlPurifierHelper::purify($str);
+
+        $str = preg_replace("|\s|u", "", $str);
+
+        $str2 = preg_replace("|\s|u", "", $str2);
 
         if ($str2 != $str)
         {
