@@ -1,0 +1,12 @@
+{
+    "name": "basic-app/html-purifier",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BasicApp\\HtmlPurifier\\" : ""
+        }
+    },
+    "require": {
+        "ezyang/htmlpurifier": "*"
+    }
+}
