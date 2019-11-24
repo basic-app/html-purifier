@@ -13,6 +13,10 @@ class HtmlPurifierValidator
 
         $str = preg_replace("|\s|u", "", $str);
 
+        $str = str_replace('{', '%7B', $str);
+
+        $str = str_replace('}', '%7D', $str);
+
         $str2 = preg_replace("|\s|u", "", $str2);
 
         if ($str2 != $str)
