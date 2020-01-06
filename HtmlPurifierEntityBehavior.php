@@ -4,8 +4,8 @@
  * @license MIT
  * @link http://basic-app.com
  */
-namespace BasicApp\HtmlPurifier\Config;
+namespace BasicApp\HtmlPurifier;
 
-class HtmlPurifier extends BaseHtmlPurifier
+class HtmlPurifierEntityBehavior extends BaseHtmlPurifierEntityBehavior
 {
 }

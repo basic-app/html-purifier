@@ -6,6 +6,6 @@
  */
 namespace BasicApp\HtmlPurifier\Config;
 
-class HtmlPurifier extends BaseHtmlPurifier
+class Services extends BaseServices
 {
 }
